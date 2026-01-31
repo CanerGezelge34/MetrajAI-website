@@ -1,0 +1,7 @@
+{
+  "name": "METRAJ AI PRO",
+  "description": "Professional-grade AI-assisted construction metraj validation platform for engineers and auditors to verify quantities with full transparency.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
