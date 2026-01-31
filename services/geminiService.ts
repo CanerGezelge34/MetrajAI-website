@@ -6,7 +6,7 @@ export const analyzeExcelStructure = async (
   sampleData: any[][],
   lang: Language = 'TR'
 ): Promise<{ mapping: Record<string, number>, startRow: number }> => {
-  const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
+  const ai = new GoogleGenAI({ apiKey: "AIzaSyCMAr_VAXJeeF0WF2qJXtV_h3U8fCGoeCA" });
   
   const prompt = `
     Analyze this construction quantity survey (metraj) spreadsheet data (first 10 rows).
